@@ -1,15 +1,5 @@
 ## Code book - run_analysis.R
 
-# Script
-
-Data is downloaed and extracted from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-
-Three data consists of subjects, activities and variables. Mean and standard deviation will be exrtacted from each varaible 
-and held in a tidy data frame. this script will write the tidy_data frame to the "UCI HAR Dataset" folder of the current working 
-directory.
-
-# Variables
-
 Features - table containing list of calculations captured (variables). Feature ID and Feature Name
 
 Activities - table containing list of activities performed by the subjects. Activity ID , Activity Name 
