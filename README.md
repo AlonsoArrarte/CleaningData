@@ -3,7 +3,7 @@
 
 ### run_analysis.R ###
 
-This script will download sample wearable computing data and extract measurements on the mean and standard deviation for each measurement in the train and test data sets. A file named tidy.txt will be created in the UCI HAR Dataset folder of the working directory.
+This script will download sample wearable computing data and merge the train and test data sets which contain Activities , Subjects and Features. From this merged data set, features containing STD or MEAN in their name will be indexed in order to subset the data. This subset will contain the Subject ID,ActivityName and each FeatureName and will be written out to a text filefile named tidy.txt,created in the UCI HAR Dataset folder of the working directory.
 
 ### DATA SET ###
 
